@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/1-reset.css"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<style type="text/css">
+			body{
+				display: flex;
+				flex-direction: column;
+				justify-content: space-around;
+				}
+			body,html{
+				height: 100%;
+				}
+			html{
+				font-size: 100px;
+				text-align: center;
+				}
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			.title{
+				padding: 0.3rem;
+				/* padding-bottom: 1rem; */
+			}
+			.title p{
+				color: #000000;
+				font-size: 0.34rem;
+			}
+			.path{
+				width: 0.2rem;
+			}
+			.photo img{
+				width: 35%;
+			}
+			.title-1{
+				padding: 0.6rem;
+				/* padding-bottom: 2rem; */
+			}
+			.title-1 p{
+				color: #000000;
+				font-size: 0.30rem;
+			}
+			.body{
+				margin: 0 0.5rem;
+			}
+			.body p{
+		        color:#999999;
+				font-size: 0.24rem;
+			}
+			.footer-2{
+				padding: 0 0.3rem;
+				margin-top: 0.20rem;
+				/* margin-bottom: 2rem; */
+				
+				}
+			button{
+				font-size: 0.34rem;
+				background-color:#09bb07;
+				color: #dbf4db;
+				width: 100%;
+				height: 0.88rem;
+				border: none;
+				border-radius: 0.1rem;
+				}
+			.foot{
+				display: flex;
+				padding:0 5%;
+				justify-content: center;
+				padding-bottom: 7%;
+			}
+			.foot a{
+				font: 0.26rem "微软雅黑";
+				text-decoration: none;
+				color:#576b95;
+				/* font-weight: lighter; */
+			}
+		    @media screen and (min-width:360px) {
+		    	html{
+		    		font-size: 70px;
+		    	}
+		    }
+		    @media screen and (min-width:411px) {
+		    	html{
+		    		font-size: 75px;
+		    	}
+		    }
+		    @media screen and (min-width:320px) {
+		    	html{
+		    		font-size: 60px;
+		    	}
+		    }
+		    @media screen and (min-width:375px) {
+		    	html{
+		    		font-size: 60px;
+		    	}
+		    }
+		    @media screen and (min-width:768px) {
+		    	html{
+		    		font-size: 100px;
+		    	}
+		    }
+		    @media screen and (min-width:1024px) {
+		    	html{
+		    		font-size: 150px;
+		    	}
+		    }
+			
+		</style>
+	</head>
+	<body>
+		 <section class="title">
+			 <a href="3.html" style="float: left;padding-left: 0.2rem;"><img class="path" src="img/path.png" ></a>
+			<p>购买礼盒</p>
+		</section>
+		
+		<section class="photo">
+			<img src="img/4-1.png" >
+			 <section class="title-1">
+				<p>赠送成功</p>
+			</section>
+		</section>
+		
+		<section class="body">
+			<p>您可以在“我赠送的”查看好友获得的物品，物品在好友填写收货信息后1个工作日内发出</p>
+		</section>
+		<div class="footer">
+
+			<div class="footer-2">
+				<button type="button">赠送</button>
+			</div>
+		</div>
+		<section class="foot">
+			<p><a href="5.html">我收到的</a></p>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<p>|</p>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<p><a href="5.html">我赠送的</a></p>
+		</section>
+		
+	</body>
+</html>
